@@ -1,0 +1,52 @@
+body {
+  background-image: url("images/bg-image.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  /* border: 1px solid red; */
+  text-align: center;
+}
+
+.main-frame {
+  margin: auto;
+  width: 70%;
+  padding: 5rem 0.6rem;
+}
+
+h1 {
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 5.4rem;
+  color: white;
+  padding: 3rem 0;
+}
+
+p {
+  font-family: 'Montserrat';
+  font-weight: 300;
+  font-size: 1.1rem;
+  color: white;
+}
+
+h6 {
+  padding: 0;
+  margin: 0;
+}
+
+a{
+  text-decoration: none;
+}
+
+.btn {
+  background-color: white;
+  padding: 0.8rem 5.5rem;
+  margin-top: 3rem;
+}
+
+.btn:hover {
+  border: 1px solid white;
+  background-color: black;
+  color: white;
+}

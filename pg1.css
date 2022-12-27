@@ -1,0 +1,70 @@
+body {
+  background-image: url("images/bg-image2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  /* border: 1px solid red; */
+  text-align: center;
+}
+
+.main-frame {
+  margin: auto;
+  width: 70%;
+  padding: 4rem 0.6rem;
+}
+
+h1 {
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 2rem;
+  color: white;
+  padding: 2rem 0;
+}
+
+p {
+  font-family: 'Montserrat';
+  font-weight: 300;
+  font-size: 1rem;
+  color: white;
+}
+
+h6 {
+  padding: 0;
+  margin: 0;
+}
+
+a{
+  text-decoration: none;
+}
+
+.btn {
+  background-color: white;
+  padding: 0.8rem 5.5rem;
+  margin-top: 5rem;
+}
+
+.btn:hover {
+  border: 1px solid white;
+  background-color: black;
+  color: white;
+}
+
+.row{
+  margin-top: 3rem;
+}
+
+img{
+  width: 70%;
+  transition: all .2s ease-in-out;
+  border-radius: 1rem;
+  filter: blur(0.5rem);
+  opacity: 0.75;
+}
+
+img:hover{
+  filter: blur(0);
+  opacity: 100%;
+  transform: scale(1.13);
+}
